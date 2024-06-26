@@ -1,0 +1,13 @@
+/* Custom CSS to speed up the transition */
+.accordion-collapse {
+    transition: height 0.01s ease-in-out; /* Adjust the duration as needed */
+  }
+  
+  .accordion-button:not(.collapsed) {
+    transition: box-shadow 0.01s ease-in-out; /* Adjust the duration as needed */
+  }
+  
+  .accordion-button.collapsed {
+    transition: none;
+  }
+  

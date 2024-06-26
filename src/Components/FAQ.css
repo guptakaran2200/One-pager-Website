@@ -1,0 +1,10 @@
+.accordion-text {
+    display: inline-block;
+    flex: 1;
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  
+  .accordion-icon {
+    align-self: center;
+  }
+  
